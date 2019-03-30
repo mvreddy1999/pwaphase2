@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form page</title>
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="parent">
+      <!-- career objective -->
+      <div class="career">
+        <h1>Career Objective</h1>
+        <label for="career">
+        <input type="text" name="career"id="career"placeholder="Career Objective" >
+        </label>
+
+      </div>
+      <!-- personal information -->
+      <div class="Details">
+        <h1>Personal Details</h1>
+        <!-- <label for="Name"></label> -->
+        <input type="text" name="name" id="name"placeholder="Enter Name">
+
+        <!-- <label for="Address"></label> -->
+        <input type="text" name="address" id="address"placeholder="Enter Address">
+
+        <!-- <label for="Email"></label> -->
+        <input type="Email" name="email" id="email"placeholder="Enter Email">
+
+        <!-- <label for="Mbl Num"></label> -->
+        <input type="num" name="mblnum" id="mblnum"placeholder="Enter Mblnum">
+        </div>
+        <!-- education details -->
+            <div class="Details">
+          <h1>Graduation details</h1>
+          <label for="ginstitute"><select id="ginstitute">
+            <option>Select Instuitute</option>
+            <option>MITS</option>
+            <option>SRM</option>
+            <option>GVC</option>
+
+
+          </select></label>
+          <!-- branch -->
+          <label for="gbranch">
+          <select id="gbranch">
+            <option>select branch</option>
+            <option>CSE</option>
+            <option>MECH</option>
+
+
+          </select></label>
+          <label for="gyear">
+          <select id="gyear">
+            <option>select yr</option>
+            <option>I</option>
+            <option>II</option>
+            <option>III</option>
+            <option>IV</option>
+
+            <input type="text" name="percentage" id="gpercentage"placeholder="enter percentage">
+            </div>
+         <!-- inter details     -->
+         <div class="Details">
+           <h1>Inter details</h1>
+           <label for="iinstitute"><select id="iinstitute">
+             <option>Select Instuitute</option>
+             <option>Chaitanya</option>
+             <option>Narayana</option>
+             <option>NRI</option>
+
+
+           </select></label>
+
+           <!-- branch -->
+           <label for="ibranch">
+           <select id="ibranch">
+             <option>select branch</option>
+             <option>Bipc</option>
+             <option>Mpc</option>
+
+
+           </select></label>
+             <input type="text" name="year" id="iyear"placeholder="enter YOP">
+             <input type="text" name="percentage" id="ipercentage"placeholder="enter percentage">
+             </div>
+             <!-- SSc details -->
+             <div class="Details">
+             <h1>SSc details</h1>
+             <label for="sinstitute"><select id="sinstitute">
+               <option>Select Instuitute</option>
+               <option>Chaitnya</option>
+               <option>Narayana</option>
+
+
+
+             </select></label>
+
+
+
+
+               <input type="text" name="year" id="syear"placeholder="enter YOP">
+               <input type="text" name="percentage" id="spercentage"placeholder="enter percentage">
+</div>
+
+
+
+           <!-- skills -->
+             <div class="Skills">
+               <h1>Skills</h1>
+               <input type="text" name="Skills" id="Skills"placeholder="enter your skills">
+
+             </div>
+
+</div>
+     <button type="button" name="button" id="button" onclick="submitdata()">SUBMIT</button>
+    <script type="text/javascript"src="js/main.js">
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+body{
+  background: gray;
+  text-align: center;
+}
+.parent{
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.career{
+  width: 90%;
+  border: 2px solid black;
+  margin: 2%;
+  padding: 3%;
+  text-align: center;
+  background: pink;
+}
+.Details{
+  width: 40%;
+  border: 2px solid black;
+  margin: 2%;
+  padding: 2%;
+  background: pink;
+}
+
+.Skills{
+  width: 90%;
+  border: 2px solid black;
+  margin: 2%;
+  padding: 2%;
+  background: pink;
+
+}
+#button{
+  font-weight: bold;
+  font-size: 20px;
+  background: violet;
+  border: 2px solid black;
+  border-radius: 2%;
+  margin: 3%;
+  font-style: italic;
+
+
+}
+input,select{
+  width: 80%;
+  margin: 2%;
+}
